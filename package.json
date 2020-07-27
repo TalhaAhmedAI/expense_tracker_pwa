@@ -1,5 +1,5 @@
 {
-  "name": "expense_tracker_app",
+  "name": "expense_tracker_pwa",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
