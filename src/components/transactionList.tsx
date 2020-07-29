@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { globalContext } from "./../context/globalState";
+import Transaction from "./transaction";
 
 const TransactionList: React.SFC = () => {
   const { transactions } = useContext(globalContext);
@@ -10,7 +11,7 @@ const TransactionList: React.SFC = () => {
       <hr />
       <ul>
         {transactions.map((transaction) => (
-          <li>{transaction.text}</li>
+          <Transaction transaction={transaction} />
         ))}
       </ul>
     </div>
