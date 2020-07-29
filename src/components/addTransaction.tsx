@@ -27,7 +27,7 @@ const AddTransaction: React.SFC = () => {
             placeholder="Enter Amount..."
           ></input>
         </div>
-        <button>Add Transaction</button>
+        <button className="btn btn-primary">Add Transaction</button>
       </form>
     </div>
   );

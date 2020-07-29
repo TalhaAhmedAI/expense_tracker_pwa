@@ -6,10 +6,10 @@ type Props = {
 
 const Transaction: React.SFC<Props> = ({ transaction }) => {
   return (
-    <li>
+    <li className="minus">
       {transaction.id}
       <span>-$400</span>
-      <button>x</button>
+      <button className="delete-btn">x</button>
     </li>
   );
 };

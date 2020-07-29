@@ -8,8 +8,7 @@ const TransactionList: React.SFC = () => {
   return (
     <div>
       <h3>History</h3>
-      <hr />
-      <ul>
+      <ul className="list">
         {transactions.map((transaction) => (
           <Transaction transaction={transaction} />
         ))}
